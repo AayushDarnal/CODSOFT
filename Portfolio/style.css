@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+html,body{
+    width:100;
+    height:100;
+    font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR STARTING FROM HERE  */
+
+#navbar{
+    width:100;
+    height:18vh;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-left:15%;
+    padding-right: 15%;
+    
+}
+
+.nav_about ul{
+    display: flex;
+    gap:2rem;
+    list-style: none;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.nav_about ul a{
+    text-decoration: none;
+     color: black;
+     font-size: 22px;
+}
+
+/* HOME PAGE STARTING FROM HERE  */
+
+.container{
+    width: 100%;
+    height: 82vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding-left: 25%;
+    padding-right: 20%;
+    padding-bottom: 35px;
+}
+
+.paragraph{
+    width: 100%;
+}
+
+.intro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro p{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-size:25px;
+    color:gray;
+    padding-bottom: 3px;
+}
+
+.intro h1{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-size:50px;
+    padding-bottom: 2px;
+}
+
+.intro h3{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-size:34px;
+    color:gray;
+    padding-bottom: 20px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container button{
+    width: 130px;
+    height:6vh;
+    border-radius: 40px;
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.btn1{
+    border: 2px solid black;
+}
+
+.btn1:hover{
+    background-color:rgb(58, 58, 58);
+    color: white;
+    border:2px solid rgb(58, 58, 58);
+}
+
+.btn2{
+    border:2px solid rgb(58, 58, 58);
+    background-color:rgb(58, 58, 58);
+    color: white;
+}
+
+.btn2:hover{
+    border: 2px solid black;
+    background-color:white;
+    color: black;
+}
+
+.myimage img{
+    width: 320px;
+    border-radius:50%;
+}
+
+
+/* ABOUT SESSION STARTS FROM HERE  */
+
+.secondpage{
+    width: 100%;
+    height: 80vh;
+    background-color:white;
+}
+
+.aboutme{
+    width: 100%;
+    height:8vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+.aboutme_one{
+    font-family: "Poppins", system-ui;
+    font-weight:500;
+    font-size: 15px;
+    color:gray;
+}
+
+.aboutme_two{
+    font-family: "Poppins", system-ui;
+    font-weight:500;
+    font-size: 40px;
+}
+
+
+.aboutsession{
+    width: 100%;
+    height:72vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.detailsession{
+    width:40%;
+    height: 50%;
+    border: 2px solid gray;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailsession p{
+    width: 65%;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-size:21px;
+    color: rgb(58, 58, 58);
+}
+
+    /* RIGHT SESSION OF THE SKILL IN THE ABOUT SESSION  */
+
+.skillsession{
+    width:40%;
+    height: 50%;
+    border: 2px solid gray;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headingskill{
+    font-family: "Poppins", system-ui;
+    font-weight:500;
+    font-size: 30px;
+    color:gray;
+    display: flex;
+    justify-content: center;  
+    margin-bottom: 30px; 
+    margin-top: 15px;
+}
+
+.skill_list{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 48px;
+}
+
+.skill_list_one{
+    padding-left: 80px;
+    font-size: 21px;
+    color: rgb(58, 58, 58);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.skill_list_one span{
+    color: rgb(58, 58, 58);
+}
+
+
+/* .skill_list li{
+    list-style: none;
+    color: rgb(58, 58, 58);
+} */
+
+
+
+
