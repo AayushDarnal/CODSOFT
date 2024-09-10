@@ -25,7 +25,6 @@ html,body{
     padding-top: 2%;
     padding-left:15%;
     padding-right: 15%;
-    
 }
 
 .nav_about ul{
@@ -102,7 +101,7 @@ html,body{
 
 .container button{
     width: 130px;
-    height:6vh;
+    padding: 10px 0px;
     border-radius: 40px;
     font-family: "Poppins", system-ui;
     font-weight: 500;
@@ -119,10 +118,19 @@ html,body{
     border:2px solid rgb(58, 58, 58);
 }
 
+
 .btn2{
+    width: 130px;
+    border-radius: 40px;
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-size: 15px;
     border:2px solid rgb(58, 58, 58);
     background-color:rgb(58, 58, 58);
     color: white;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
 }
 
 .btn2:hover{
@@ -244,6 +252,125 @@ html,body{
 .skill_list_one span{
     color: rgb(58, 58, 58);
 }
+
+
+    /* THIRD PAGE START FROM HERE */
+
+
+.projectpage{
+    width: 100%;
+    height: 80vh;
+    background-color:white;
+}
+
+.project_boxes{
+    width: 100%;
+    height:72vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.project_box_one{
+    width:25%;
+    height: 70%;
+    border: 2px solid gray;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* FOURTH PAGE START FROM HERE */
+
+.contactpage{
+    width: 100%;
+    height: 80vh;
+    background-color:white;
+}
+
+.contact_body{
+    width: 100%;
+    height:72vh;
+    display: flex;
+}
+
+.leftside_heading{
+    width: 35%;
+    height: 40%;
+    margin-top: 6%;
+    margin-left: 9%;
+}
+
+.leftside_heading h1{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.leftside_heading p{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-size:17px;
+    color: rgb(58, 58, 58);
+}
+
+.rightside_heading{
+    width: 35%;
+    height: 60%;
+    margin-top: 6%;
+    margin-left: 9%;
+}
+
+.rightside_heading form{
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.rightside_heading input{
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid gray ;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.rightside_heading label{
+    font-size:17px;
+    color: rgb(58, 58, 58);
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+}
+
+.button_submit input{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+    padding-right: 10px;
+}
+
+.contactpage hr{
+    margin: auto;
+    width:80%;
+    color: gray;
+    margin-bottom: 3%;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+
+
 
 
 
