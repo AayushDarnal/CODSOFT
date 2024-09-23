@@ -99,13 +99,16 @@ html,body{
     gap: 20px;
 }
 
-.container button{
+.container .btn1{
     width: 130px;
     padding: 10px 0px;
     border-radius: 40px;
     font-family: "Poppins", system-ui;
     font-weight: 500;
     font-size: 15px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
 
 .btn1{
@@ -269,17 +272,37 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 90px;
 }
 
 .project_box_one{
     width:25%;
-    height: 70%;
-    border: 2px solid gray;
+    height: 80%;
     border-radius: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    align-items:start;
+    background-color: #f4f4f4;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    gap: 20px;
+}
+
+.project_content{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    gap: 15px;
+}
+
+.project_box_one h1{
+    font-size: 25px;
+}
+
+
+.project_box_one img{
+    border-radius: 30px 30px 0px 0px;
+
 }
 
 
